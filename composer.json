@@ -1,0 +1,8 @@
+{
+    "require": {
+        "silex/silex": "1.3.*",
+        "elasticsearch/elasticsearch": "~2.0@beta",
+        "monolog/monolog": "~1.0",
+    }
+
+}
