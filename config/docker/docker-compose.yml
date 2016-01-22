@@ -1,0 +1,9 @@
+elasticsearch:
+  image: 'hub.alterway.fr/elasticsearch:1.7'
+  environment:
+    SERVICE_9200_NAME: 'es-solution-elasticsearch'
+    SERVICE_9200_TAGS: 'http'
+  volumes:
+    - /data
+  ports:
+    - 9200
