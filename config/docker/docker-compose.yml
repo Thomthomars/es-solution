@@ -1,5 +1,5 @@
 elasticsearch:
-  image: 'hub.alterway.fr/elasticsearch:1.7'
+  build: elasticsearch
   environment:
     SERVICE_9200_NAME: 'es-solution-elasticsearch'
     SERVICE_9200_TAGS: 'http'
